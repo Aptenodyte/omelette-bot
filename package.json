@@ -1,0 +1,30 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A simple general purpose Discord bot",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "node src/deploy-commands.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aptenodyte/discord-bot.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Aptenodyte/discord-bot/issues"
+  },
+  "homepage": "https://github.com/Aptenodyte/discord-bot#readme",
+  "devDependencies": {
+    "eslint": "^8.50.0"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.7",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "utf-8-validate": "^6.0.3",
+    "zlib-sync": "^0.1.8"
+  }
+}
